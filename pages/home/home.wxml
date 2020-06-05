@@ -1,0 +1,31 @@
+<!--home.wxml-->
+<view>
+<!-- 侧边滑动菜单 -->
+  <view class="page-slidebar">
+    <view class="page-content">
+      <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击获取头像昵称 </button>
+        <block wx:else>
+          <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        </block>
+      </view>
+      <view class="account-info" wx:if="{{hasUserInfo}}">
+        <view class="account-info-item">用户：{{userInfo.nickName}}</view>
+        <view class="account-info-item">账号：humiao</view>
+        <view class="account-info-item">角色：管理员</view>
+        <view class="account-info-item">版本：v1.0.0</view>
+      </view>
+      <view  wx:if="{{hasUserInfo}}">
+        <view class='quit-view'>
+          <button class='quit-btn' bindtap='quit'>退出登录</button>
+        </view>
+      </view>
+    </view>
+  </view>
+<!-- 主页内容 -->
+  <view bindtouchmove="tap_drag" bindtouchend="tap_end" bindtouchstart="tap_start" class="page-top {{open ? ['c-state','cover'] : ''}} ">
+    <mp-navigation-bar title="主页" back="{{false}}" color="#fff" background="#1296db">
+       <mp-icon bindtap="openSlider" slot="left" icon="more" color="white" size="{{25}}"></mp-icon>
+    </mp-navigation-bar>
+  </view>
+</view>

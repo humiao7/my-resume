@@ -1,0 +1,22 @@
+/**index.wxss**/
+page {
+  background: #fff;
+}
+
+.table-view {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+  text-align: center;
+  color: #797979;
+  padding: 40rpx 0;
+  font-size: 30rpx;
+}

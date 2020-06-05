@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="table-view">
+    <view class="col-3">
+      <mp-icon icon="display" color='#797979' size="{{30}}"></mp-icon>
+      <view>基础组件</view>
+    </view>
+    <view class="col-3">
+      <mp-icon icon="text" color='#797979' size="{{30}}"></mp-icon>
+      <view>表单组件</view>
+    </view>
+    <view class="col-3">
+      <mp-icon icon="refresh" color='#797979' size="{{30}}"></mp-icon>
+      <view>操作反馈</view>
+    </view>
+    <view class="col-3">
+      <mp-icon icon="play" color='#797979' size="{{30}}"></mp-icon>
+      <view>导航组件</view>
+    </view>
+    <view class="col-3">
+      <mp-icon icon="search" color='#797979' size="{{30}}"></mp-icon>
+      <view>搜索组件</view>
+    </view>
+  </view>
+</view>
