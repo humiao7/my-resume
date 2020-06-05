@@ -12,11 +12,15 @@ page {
   width: 100%;
 }
 
-.col-3 {
+.col-33 {
   flex: 0 0 auto;
   width: 33.3333333333%;
   text-align: center;
   color: #797979;
   padding: 40rpx 0;
-  font-size: 30rpx;
+  font-size: 25rpx;
+}
+
+.menu-name{
+  padding-top: 5rpx;
 }

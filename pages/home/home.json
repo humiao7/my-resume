@@ -1,7 +1,6 @@
 {
-  "usingComponents": {
-    "mp-navigation-bar": "weui-miniprogram/navigation-bar/navigation-bar",
-    "mp-icon": "weui-miniprogram/icon/icon"
-  },
-  "navigationStyle": "custom"
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#1296db",
+  "navigationBarTitleText": "主页",
+  "navigationBarTextStyle": "white"
 }

@@ -10,19 +10,6 @@ Page({
     open: false
   },
 
-  // 打开侧栏菜单
-  openSlider: function (e) {
-    if (this.data.open) {
-      this.setData({
-        open: false
-      });
-    } else {
-      this.setData({
-        open: true
-      });
-    }
-  },
-
   // touchstart事件
   tap_start: function (e) {
     // 把手指触摸屏幕的那一个点的 x 轴坐标赋值给 mark 和 newmark
