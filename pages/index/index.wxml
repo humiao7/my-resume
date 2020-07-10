@@ -17,6 +17,6 @@
 		<view class="title">
 			<mp-icon extClass="title-icon" icon="star" color="#387ef5" size="16"></mp-icon>代办事项
 		</view>
-		<time-line wx:for="{{schedules}}" wx:for-item="plan" wx:key="index" color="{{plan.color}}" title="{{plan.title}}" content="{{plan.content}}" timestamp='{{plan.date}}'></time-line>
+		<time-line wx:for="{{schedules}}" wx:for-item="plan" wx:key="index" icon="{{plan.icon}}" color="{{plan.color}}" title="{{plan.title}}" content="{{plan.content}}" timestamp='{{plan.date}}'></time-line>
 	</view>
 </view>
