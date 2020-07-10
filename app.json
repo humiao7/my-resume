@@ -1,8 +1,8 @@
 {
   "pages": [
-
     "pages/index/index",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/web-view/web-view"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,7 +15,8 @@
   "tabBar": {
     "color": "#aaa",
     "selectedColor": "#1296db",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/home/home",
         "text": "主页",
         "iconPath": "./assets/home.png",

@@ -3,24 +3,56 @@ page {
   background: #fff;
 }
 
+.swiper-view {
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.swiper-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .table-view {
+  width: 100%;
   display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 .col-33 {
   flex: 0 0 auto;
-  width: 33.3333333333%;
+  width: 33.177999%;
   text-align: center;
   color: #797979;
   padding: 40rpx 0;
   font-size: 25rpx;
+  border-right: 1rpx solid #f0f0f0;
+  border-bottom: 1rpx solid #f0f0f0;
 }
 
-.menu-name{
+.menu-name {
   padding-top: 5rpx;
+}
+
+.schedule {
+  width: auto;
+  padding: 10rpx 30rpx;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.schedule .title {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-self: flex-start;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #387ef5;
+}
+
+.schedule .title-icon{
+  margin: -5rpx 10rpx 0 0;
 }

@@ -1,0 +1,17 @@
+<!--component/time-line/time-line.wxml-->
+<view class="time-line">
+	<view class="line-item">
+		<view class="line" style="border-color:{{color}}"></view>
+		<view class="icon-img">
+			<mp-icon icon="{{icon}}" type="field" color='{{color}}' size="16"></mp-icon>
+		</view>
+	</view>
+	<view class="content-item">
+		<view class="arrow" style="border-right: 30rpx solid {{color}}"></view>
+		<view class="bubble-box" style="border-color: {{color}}; box-shadow: {{color}} 4rpx 4rpx 10rpx;">
+			<view class="title">{{title}}</view>
+			<view class="content">{{content}}</view>
+			<view class="timestamp">{{timestamp}}</view>
+		</view>
+	</view>
+</view>
