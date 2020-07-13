@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/home/home",
     "pages/web-view/web-view",
-    "pages/tab-list/tab-list"
+    "pages/tab-list/tab-list",
+    "pages/scan/scan"
   ],
   "window": {
     "backgroundTextStyle": "light",

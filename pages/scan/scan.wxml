@@ -1,0 +1,11 @@
+<!--pages/scan/scan.wxml-->
+<view class="scan">
+	<view class="scan-result">
+		<view class="title">扫描结果</view>
+		<view class="result">{{result}}</view>
+		<button class="mini-btn" type="default" size="mini" bindtap="copyToClipboard">复制到剪切板</button>
+	</view>
+</view>
+<view>
+	<image class="scanIcon" bindtap="scanMethods" src="../../assets/scan.svg"></image>
+</view>

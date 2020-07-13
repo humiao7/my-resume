@@ -49,7 +49,7 @@ Page({
         name: "扫码",
         iconCss: "qr-code",
         color: "#ffa500",
-        url:"/"
+        url:"/pages/scan/scan"
       },
       {
         name: "web-view",
