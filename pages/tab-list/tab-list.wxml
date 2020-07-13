@@ -1,0 +1,11 @@
+<view class="tab-list">
+	<mp-tabs tabs="{{tabs}}" activeTab="{{activeTab}}" swiperClass="weui-tabs-swiper" bindtabclick="onTabChange" bindchange="onTabChange" activeClass="tab-bar-title__selected">
+		<block wx:for="{{tabs}}" wx:for-item="tab" wx:key="title">
+			<view class="tab-content" slot="tab-content-{{index}}">
+				<scroll-view class="list" scroll-y refresher-enabled bindrefresherpulling="refreshTabList" bindscrolltolower="loadMoreList">
+					<view class="item" wx:for="{{tab.list}}" wx:for-item="item" wx:key="index">Hello, Item{{index+1}} !</view>
+				</scroll-view>
+			</view>
+		</block>
+	</mp-tabs>
+</view>

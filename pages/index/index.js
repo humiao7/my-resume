@@ -4,10 +4,10 @@ Page({
   data: {
     iconSize: 30,
     menuList: [{
-        name: "视图容器",
+        name: "动态列表",
         iconCss: "display",
         color: "#ff7f50",
-        url:"/"
+        url:"/pages/tab-list/tab-list"
       },
       {
         name: "基本组件",
